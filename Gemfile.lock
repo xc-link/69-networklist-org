@@ -494,7 +494,7 @@ GEM
       activerecord (>= 5.a)
       database_cleaner-core (~> 2.0.0)
     database_cleaner-core (2.0.1)
-    date (3.3.3)
+    date (3.4.1)
     dead_end (3.1.1)
     deb_version (1.0.2)
     debug_inspector (1.1.0)
@@ -1185,7 +1185,7 @@ GEM
       uri
     net-http-persistent (4.0.1)
       connection_pool (~> 2.2)
-    net-imap (0.3.4)
+    net-imap (0.3.8)
       date
       net-protocol
     net-ldap (0.17.1)
@@ -1839,7 +1839,7 @@ GEM
     thread_safe (0.3.6)
     thrift (0.16.0)
     tilt (2.0.11)
-    timeout (0.3.2)
+    timeout (0.4.3)
     timfel-krb5-auth (0.8.3)
     tins (1.31.1)
       sync
