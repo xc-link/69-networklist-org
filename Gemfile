@@ -30,9 +30,9 @@ gem 'bundler-checksum', '~> 0.1.0', path: 'vendor/gems/bundler-checksum', requir
 # See https://docs.gitlab.com/ee/development/gemfile.html#upgrade-rails for guidelines when upgrading Rails
 
 if next?
-  gem 'rails', '~> 7.1.4', feature_category: :shared
+  gem 'rails', '~> 7.0.8.7', feature_category: :shared
 else
-  gem 'rails', '~> 7.0.8.6', feature_category: :shared
+  gem 'rails', '~> 7.0.8.7', feature_category: :shared
 end
 
 gem 'activerecord-gitlab', path: 'gems/activerecord-gitlab' # rubocop:todo Gemfile/MissingFeatureCategory
@@ -93,7 +93,7 @@ gem 'doorkeeper', '~> 5.8', '>= 5.8.1', feature_category: :system_access
 gem 'doorkeeper-openid_connect', '~> 1.8.10', feature_category: :system_access
 gem 'doorkeeper-device_authorization_grant', '~> 1.0.0', feature_category: :system_access
 gem 'rexml', '~> 3.3.2' # rubocop:todo Gemfile/MissingFeatureCategory
-gem 'ruby-saml', '~> 1.17.0', feature_category: :system_access
+gem 'ruby-saml', '~> 1.18.0', feature_category: :system_access
 gem 'omniauth', '~> 2.1.0' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'omniauth-auth0', '~> 3.1' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'omniauth-azure-activedirectory-v2', '~> 2.0' # rubocop:todo Gemfile/MissingFeatureCategory
@@ -102,7 +102,7 @@ gem 'omniauth-github', '2.0.1' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'omniauth-gitlab', '~> 4.0.0', path: 'vendor/gems/omniauth-gitlab' # See vendor/gems/omniauth-gitlab/README.md # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'omniauth-google-oauth2', '~> 1.1' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'omniauth-oauth2-generic', '~> 0.2.2' # rubocop:todo Gemfile/MissingFeatureCategory
-gem 'omniauth-saml', '~> 2.2.1', feature_category: :system_access
+gem 'omniauth-saml', '~> 2.2.3', feature_category: :system_access
 gem 'omniauth-shibboleth-redux', '~> 2.0', require: 'omniauth-shibboleth' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'omniauth_crowd', '~> 2.4.0', path: 'vendor/gems/omniauth_crowd' # See vendor/gems/omniauth_crowd/README.md # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'omniauth_openid_connect', '~> 0.8.0' # rubocop:todo Gemfile/MissingFeatureCategory
@@ -262,7 +262,7 @@ gem 'asciidoctor-kroki', '~> 0.10.0', require: false, feature_category: :markdow
 gem 'rouge', '~> 4.4.0', feature_category: :shared
 gem 'truncato', '~> 0.7.12', feature_category: :team_planning
 gem 'nokogiri', '~> 1.16', feature_category: :shared
-gem 'gitlab-glfm-markdown', '~> 0.0.21', feature_category: :markdown
+gem 'gitlab-glfm-markdown', '~> 0.0.28', feature_category: :markdown
 gem 'tanuki_emoji', '~> 0.13', feature_category: :markdown
 gem 'unicode-emoji', '~> 4.0', feature_category: :markdown
 
@@ -696,7 +696,7 @@ gem 'oj-introspect', '~> 0.7' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'multi_json', '~> 1.14.1' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'yajl-ruby', '~> 1.4.3', require: 'yajl' # rubocop:todo Gemfile/MissingFeatureCategory
 
-gem 'webauthn', '~> 3.0' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'webauthn', '~> 3.4' # rubocop:todo Gemfile/MissingFeatureCategory
 
 # IPAddress utilities
 gem 'ipaddress', '~> 0.8.3' # rubocop:todo Gemfile/MissingFeatureCategory
