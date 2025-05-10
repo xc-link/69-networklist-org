@@ -1,8 +1,7 @@
 module gitlab.com/gitlab-org/gitlab/workhorse
 
 go 1.22
-
-toolchain go1.22.6
+toolchain go1.24.1
 
 require (
 	github.com/Azure/azure-sdk-for-go/sdk/azidentity v1.7.0
@@ -34,7 +33,7 @@ require (
 	go.uber.org/goleak v1.3.0
 	gocloud.dev v0.40.0
 	golang.org/x/image v0.20.0
-	golang.org/x/net v0.30.0
+	golang.org/x/net v0.38.0
 	golang.org/x/oauth2 v0.23.0
 	google.golang.org/grpc v1.67.1
 	google.golang.org/protobuf v1.35.1
@@ -132,11 +131,11 @@ require (
 	go.opentelemetry.io/otel/metric v1.28.0 // indirect
 	go.opentelemetry.io/otel/trace v1.28.0 // indirect
 	go.uber.org/atomic v1.11.0 // indirect
-	golang.org/x/crypto v0.28.0 // indirect
+	golang.org/x/crypto v0.36.0 // indirect
 	golang.org/x/mod v0.20.0 // indirect
-	golang.org/x/sync v0.8.0 // indirect
-	golang.org/x/sys v0.26.0 // indirect
-	golang.org/x/text v0.19.0 // indirect
+	golang.org/x/sync v0.12.0 // indirect
+	golang.org/x/sys v0.31.0 // indirect
+	golang.org/x/text v0.23.0 // indirect
 	golang.org/x/time v0.6.0 // indirect
 	golang.org/x/tools v0.24.0 // indirect
 	golang.org/x/xerrors v0.0.0-20240716161551-93cc26a95ae9 // indirect
